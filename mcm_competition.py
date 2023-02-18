@@ -1,4 +1,4 @@
-list_word = ["acb", "ddcz", "apple", "dog", "aabbcc"]
+list_word = list(set)
 
 count = 0
 for i in range(len(list_word)):
