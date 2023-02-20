@@ -36,6 +36,6 @@ plt.show()
 
 with open("reported_cases_approximated.txt",'w') as f_obj:
     content=""
-    for i in y_final:
+    for i in y_final[::-1]:
         content+=str(i)+'\n'
     f_obj.write(content[:-1])
